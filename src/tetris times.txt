@@ -1,0 +1,12 @@
+locksTime	= 6.897035705
+placeTime	= 1.096868599
+anaTime		= 0.357464259
+undoTime	= 0.547891610
+incWaitTime	= 0.063153252
+
+reset	= 0.626692904
+init	= 0.382092777
+down	= 1.542245063
+rot		= 0.575207133
+trans	= 0.562071158
+rev		= 0.054085279

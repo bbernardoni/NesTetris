@@ -1,0 +1,40 @@
+Seed=8e2d	wait frames=0	# of pieces needed=51	clear anim=11
+Seed=21eb	wait frames=10	# of pieces needed=48	clear anim=11
+Seed=9948	wait frames=12	# of pieces needed=49	clear anim=10
+Seed=2652	wait frames=13	# of pieces needed=49	clear anim=10
+Seed=a265	wait frames=14	# of pieces needed=49	clear anim=11
+Seed=3a26	wait frames=15	# of pieces needed=49	clear anim=10
+Seed=c744	wait frames=16	# of pieces needed=50	clear anim=10
+Seed=1a0e	wait frames=19	# of pieces needed=49	clear anim=11
+Seed=4341	wait frames=20	# of pieces needed=49	clear anim=10
+Seed=2028	wait frames=23	# of pieces needed=50	clear anim=10
+Seed=840	wait frames=25	# of pieces needed=49	clear anim=10
+Seed=9021	wait frames=27	# of pieces needed=49	clear anim=10
+Seed=1e64	wait frames=34	# of pieces needed=50	clear anim=10
+Seed=8f32	wait frames=35	# of pieces needed=49	clear anim=10
+Seed=4b4f	wait frames=42	# of pieces needed=49	clear anim=10
+Seed=bdc4	wait frames=53	# of pieces needed=50	clear anim=9
+Seed=2f71	wait frames=54	# of pieces needed=50	clear anim=9
+Seed=e00b	wait frames=57	# of pieces needed=48	clear anim=11
+Seed=bd78	wait frames=60	# of pieces needed=47	clear anim=12
+Seed=fe2b	wait frames=62	# of pieces needed=49	clear anim=10
+Seed=6773	wait frames=74	# of pieces needed=47	clear anim=12
+Seed=14ce	wait frames=75	# of pieces needed=50	clear anim=12
+Seed=d14c	wait frames=76	# of pieces needed=50	clear anim=12
+Seed=e768	wait frames=79	# of pieces needed=48	clear anim=12
+Seed=8c37	wait frames=86	# of pieces needed=50	clear anim=11
+Seed=a376	wait frames=90	# of pieces needed=50	clear anim=11
+Seed=d546	wait frames=91	# of pieces needed=49	clear anim=12
+Seed=724e	wait frames=94	# of pieces needed=49	clear anim=11
+Seed=ce49	wait frames=95	# of pieces needed=49	clear anim=12
+Seed=79c9	wait frames=96	# of pieces needed=50	clear anim=11
+Seed=c3ce	wait frames=97	# of pieces needed=49	clear anim=11
+				/*try {
+				    Thread.sleep(40);
+				} catch(InterruptedException ex) {
+				    Thread.currentThread().interrupt();
+				}*/
+
+solutions
+{4,1,2},{3,2,4},{8,4,5}
+{3,2,4},{4,1,2},{8,4,5}

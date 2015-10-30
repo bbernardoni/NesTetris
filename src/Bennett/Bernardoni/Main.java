@@ -22,6 +22,7 @@ public class Main {
 		//solveGame(10, lt.T, lt.L, new int[]{1,1,1,1,2,1,1,1,1,1,1});//13, lt.Z, lt.I, new int[]{1,2,2,1,1,1,1,1,1,1});//53, lt.T, lt.L, new int[]{1,2,1,1,1,2,1,1,1,1});
 	}
 	
+	@SuppressWarnings("unused")
 	private void solveGame(int seedIndex, lt cur, lt next, int[] gh) {
 		int endRand = Emu.generateSeed(wellMem, seedArray[seedIndex]);
 		counter = 0;
@@ -36,6 +37,7 @@ public class Main {
 		ai.start();
 	}
 	
+	@SuppressWarnings("unused")
 	private void solveGame2(int seedIndex, lt cur, lt next, int[] gh) {
 		int endRand = Emu.generateSeed(wellMem, seedArray[seedIndex]);
 		counter = 0;
@@ -50,6 +52,7 @@ public class Main {
 		ai.start();
 	}
 	
+	@SuppressWarnings("unused")
 	private void findPieceSolutions(int seedIndex, int gn, int gh, int piecesLeft) {
 		Emu.generateSeed(wellMem, seedArray[seedIndex]);
 		PieceSolutions ps = new PieceSolutions(wellMem, gn, gh, piecesLeft);
@@ -62,11 +65,13 @@ public class Main {
 		gui.startThread();
 	}
 	
+	@SuppressWarnings("unused")
 	private void displayEmpty(int rand, int startFrame, lt cur, lt next) {
 		GUI gui = new GUI(wellMem, cur.ordinal(), next.ordinal(), rand, startFrame);
 		gui.startThread();
 	}
 	
+	@SuppressWarnings("unused")
 	private void printNextRand(int rand, int nub) {
 		for(int i = 0; i<nub; i++){
 			rand = Emu.rand(rand);
@@ -74,6 +79,7 @@ public class Main {
 		}
 	}
 
+	@SuppressWarnings("unused")
 	private void printNextBlocks(long input) {
 		int prevIndex = -1;
 		int rand = (int) ((input >> 16) & 0xFFFF);

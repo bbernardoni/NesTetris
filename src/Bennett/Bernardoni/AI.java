@@ -135,7 +135,7 @@ public class AI {
 	  
 	public void search() {
 		boolean[] tetriminos = new boolean[7];
-		boolean searchLoop;
+		//boolean searchLoop;
 		do{
 			/*if(System.currentTimeMillis()-start > 10000){
 				start = 0;

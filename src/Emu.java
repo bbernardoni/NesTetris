@@ -1,5 +1,3 @@
-package Bennett.Bernardoni;
-
 import java.util.ArrayList;
 
 public class Emu {

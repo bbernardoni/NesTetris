@@ -1,5 +1,3 @@
-package Bennett.Bernardoni;
-
 public class State {
 	public int x;
 	public int y;

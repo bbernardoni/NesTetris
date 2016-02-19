@@ -1,5 +1,3 @@
-package Bennett.Bernardoni;
-
 public class Main {
 
 	int counter;

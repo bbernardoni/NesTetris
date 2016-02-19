@@ -1,5 +1,3 @@
-package Bennett.Bernardoni;
-
 public class Event {
 	public int curPiece;
 	public int nextPiece;

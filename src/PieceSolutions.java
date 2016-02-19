@@ -1,5 +1,3 @@
-package Bennett.Bernardoni;
-
 public class PieceSolutions {
 
 	int[][][] wellMem = new int[10][20][4]; //0=no 1=filled 2=needed 3=available 4=dependent
